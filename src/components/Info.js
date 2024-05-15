@@ -37,7 +37,7 @@ function Info() {
                             .type(" You gotta smile more 😃")
                             .pause(1000)
                             .delete(40, {instant:true})
-                            .type("I'm Wyatt 👋🏻")
+                            .type("I'm Wyatt 👋")
                             .break({delay:300})
                             .type('Thanks for visiting here!', {speed: 5});
                             

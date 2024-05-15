@@ -1,0 +1,73 @@
+
+.heading {
+    padding-top: 120px;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: "Blessing";
+  font-size: 3rem;
+  padding: 0 3rem;
+  margin-top: 30px;
+  color: lightgoldenrodyellow
+}
+
+h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+  color: white;
+}
+
+img {
+    animation-delay: 2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; 
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.h3, .h4, .h5 {
+    width: 100%;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    transition: transform 0.2s ease; 
+}
+
+.h3 {
+    position: relative;
+	-webkit-animation-delay: 5.3s; 
+    animation-delay: 5.3s;
+}
+.h3:hover {
+    transform:scale(1.2);
+}
+.h4 {
+    position: relative;
+	-webkit-animation-delay: 5.6s; 
+    animation-delay: 5.6s;
+}
+.h4:hover {
+    transform:scale(1.2);
+}
+
+.h5 {
+    position: relative;
+	-webkit-animation-delay: 5.9s; 
+    animation-delay: 5.9s;
+}
+.h5:hover {
+    transform:scale(1.2);
+}
+  
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

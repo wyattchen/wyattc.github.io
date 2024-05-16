@@ -25,7 +25,7 @@ const Design = (props) => {
     () => ({
       fullScreen: {
         enable: true,
-        zIndex: -1
+        zIndex: 2
       },
       fpsLimit: 120,
       interactivity: {
@@ -87,18 +87,13 @@ const Design = (props) => {
     [],
   );
   
-  if (init){
-    return (
-      <Particles
-      id={props.id}
-      options={options}
-    />
-    )
-  }
-  
   return (
-        <div/>
-  );
+    <Particles
+    id={props.id}
+    options={options}
+  />
+  )
+  
 };
 
 export default Design;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Info.css';
-import profilePic from './profile_pic_2.jpg'
+import profilePic from './amstd_profile6.jpg'
 import TypeIt from "typeit-react";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
